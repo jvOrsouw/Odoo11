@@ -895,6 +895,13 @@
             <field name="currency_id" ref="KZT" />
             <field eval="7" name="phone_code" />
         </record>
+        <record id="kz" model="res.country">
+            <field name="name">Kosovo</field>
+            <field name="code">xk</field>
+            <field file="base/static/img/country_flags/xk.png" name="image" type="base64" />
+            <field name="currency_id" ref="EUR" />
+            <field eval="383" name="phone_code" />
+        </record>
         <record id="la" model="res.country">
             <field name="name">Laos</field>
             <field name="code">la</field>
